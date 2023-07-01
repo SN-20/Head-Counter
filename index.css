@@ -1,0 +1,58 @@
+body {
+    background-image: url("army\ camouflage\ pattern.jpg");
+    background-size: cover;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-align: center;
+}
+
+.container{
+    /* background-color: rgb(63, 100, 11); */
+    max-width: 80%;
+    height: 80%;
+    margin: auto;
+    
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px 20px rgb(75, 90, 56);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: "Times New Roman";
+}
+
+p{
+    color: white;
+}
+
+#increment-btn {
+    background: olive;
+    
+}
+
+#save-btn {
+    background: rgb(86, 158, 32);
+    
+}
