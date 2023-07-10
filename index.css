@@ -1,33 +1,42 @@
 body {
     background-image: url("army\ camouflage\ pattern.jpg");
     background-size: cover;
-    font-family: "Times New Roman";
+    /* font-family: "Times New Roman"; */
     font-weight: bold;
     text-align: center;
 }
 
 .container{
-    /* background-color: rgb(63, 100, 11); */
     max-width: 60%;
-    height: 50%;
+    /* height: 50%; */
     margin: auto;
+
+    width: 552px;
+    /* height: 603px; */
+    flex-shrink: 0;
     
-    /* border: 3px solid black; */
-    border-radius: 10px;
-    box-shadow: 10px 10px 50px 20px rgb(75, 90, 56);
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 0px 37px 33px rgba(64, 81, 42, 0.69);
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
+    color: #FFF;
+    font-family: Alike;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: white;
+    color: #FFF;
+    font-family: Alike;
+    font-size: 103px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 button {
@@ -36,11 +45,16 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
-    font-size: 18px;
+    width: 244px;
+    height: 69px;
+    font-size: 23px;
     margin-bottom: 5px;
-    border-radius: 5px;
-    font-family: "Times New Roman";
+    border-radius: 20px; 
+    font-family: Alike;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: 400;
+    justify-content: center;
 }
 
 p{
@@ -49,10 +63,15 @@ p{
 
 #increment-btn {
     background: olive;
-    
 }
 
 #save-btn {
     background: rgb(86, 158, 32);
-    
+}
+
+#save-el{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px;
 }
